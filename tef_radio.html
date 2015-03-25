@@ -22,7 +22,7 @@
                     this.fire('checked');
                 }.bind(this));
             },
-            resolveClass: function(size, type, disabled, active) {
+            resolveClass: function(right, block, disabled) {
                 var localClass = 'tef-radio';
                 if (this.right) localClass += ' right';
                 if (this.block) localClass += ' block';
